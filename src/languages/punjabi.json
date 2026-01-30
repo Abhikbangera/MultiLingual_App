@@ -1,0 +1,106 @@
+{
+  "app": {
+    "title": "ਬੱਚਿਆਂ ਦੀ ਸਿੱਖਿਆ ਐਪ",
+    "tagline": "ਸਿੱਖਣਾ ਮਜ਼ਾਦਾ ਹੈ!",
+    "subtitle": "ਗਣਿਤ, ਅੰਗਰੇਜ਼ੀ ਅਤੇ EVS ਨੂੰ ਮਜ਼ਾਦੇ ਢੰਗ ਨਾਲ ਸਿੱਖੋ"
+  },
+  "common": {
+    "welcome": "ਸਵਾਗਤ",
+    "next": "ਅੱਗੇ",
+    "back": "ਪਿੱਛੇ",
+    "submit": "ਜਮ੍ਹਾਂ ਕਰੋ",
+    "retry": "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+    "continue": "ਜਾਰੀ ਰੱਖੋ",
+    "home": "ਹੋਮ",
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "score": "ਸਕੋਰ",
+    "correct": "ਸਹੀ ਜਵਾਬ!",
+    "incorrect": "ਓਹੋ! ਗਲਤ ਜਵਾਬ",
+    "totalQuestions": "ਕੁੱਲ ਸਵਾਲ",
+    "yourScore": "ਤੁਹਾਡਾ ਸਕੋਰ",
+    "percentage": "ਫੀਸਦੀ",
+    "completed": "ਪੂਰਾ",
+    "pending": "ਬਾਕੀ"
+  },
+  "language": {
+    "selectLanguage": "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ",
+    "english": "English",
+    "hindi": "हिंदी",
+    "punjabi": "ਪੰਜਾਬੀ",
+    "languageLabel": "ਭਾਸ਼ਾ:"
+  },
+  "subjects": {
+    "selectSubject": "ਵਿਸ਼ਾ ਚੁਣੋ",
+    "maths": {
+      "name": "ਗਣਿਤ",
+      "description": "ਅੰਕ ਅਤੇ ਗਣਿਤ ਸਿੱਖੋ",
+      "emoji": "🔢"
+    },
+    "english": {
+      "name": "ਅੰਗਰੇਜ਼ੀ",
+      "description": "ਅੱਖਰ ਅਤੇ ਸ਼ਬਦ ਸਿੱਖੋ",
+      "emoji": "📚"
+    },
+    "evs": {
+      "name": "EVS",
+      "description": "ਕੁਦਰਤ ਬਾਰੇ ਸਿੱਖੋ",
+      "emoji": "🌿"
+    }
+  },
+  "lessons": {
+    "selectLesson": "ਪਾਠ ਚੁਣੋ",
+    "startLesson": "ਪਾਠ ਸ਼ੁਰੂ ਕਰੋ",
+    "watchAnimation": "ਐਨੀਮੇਸ਼ਨ ਦੇਖੋ",
+    "takeQuiz": "ਕਵਿਜ਼ ਲਓ",
+    "lessonComplete": "ਪਾਠ ਪੂਰਾ ਹੋਇਆ!",
+    "greatJob": "ਬਹੁਤ ਵਧੀਆ!",
+    "youLearned": "ਤੁਸੀਂ ਅੱਜ ਕੁਝ ਨਵਾਂ ਸਿੱਖਿਆ!"
+  },
+  "quiz": {
+    "quizTitle": "ਕਵਿਜ਼ ਟੈਸਟ",
+    "question": "ਸਵਾਲ",
+    "of": "ਦਾ",
+    "correctAnswers": "ਸਹੀ ਜਵਾਬ",
+    "greatWork": "ਬਹੁਤ ਵਧੀਆ ਕੰਮ!",
+    "goodEffort": "ਚੰਗੀ ਕੋਸ਼ਿਸ਼!",
+    "keepTrying": "ਕੋਸ਼ਿਸ਼ ਜਾਰੀ ਰੱਖੋ!"
+  },
+  "dashboard": {
+    "teacherLogin": "ਅਧਿਆਪਕ ਲੋਗਇਨ",
+    "email": "ਈਮੇਲ",
+    "password": "ਪਾਸਵਰਡ",
+    "login": "ਲੋਗਇਨ",
+    "logout": "ਲੋਗਆਉਟ",
+    "welcomeTeacher": "ਸਵਾਗਤ ਅਧਿਆਪਕ ਜੀ!",
+    "studentProgress": "ਵਿਦਿਆਰਥੀਆਂ ਦੀ ਤਰੱਕੀ",
+    "studentName": "ਵਿਦਿਆਰਥੀ ਦਾ ਨਾਂ",
+    "class": "ਕਲਾਸ",
+    "lessonsCompleted": "ਪੂਰੇ ਪਾਠ",
+    "quizzesTaken": "ਲਏ ਗਏ ਕਵਿਜ਼",
+    "averageScore": "ਔਸਤ ਸਕੋਰ",
+    "progress": "ਤਰੱਕੀ",
+    "noStudents": "ਕੋਈ ਵਿਦਿਆਰਥੀ ਨਹੀਂ ਮਿਲਿਆ",
+    "recentActivity": "ਹਾਲ ਦੀ ਗਤੀਵਿਧਾਨ",
+    "overview": "ਸਾਰਾਂਸ਼",
+    "totalStudents": "ਕੁੱਲ ਵਿਦਿਆਰਥੀ",
+    "totalLessons": "ਕੁੱਲ ਪਾਠ",
+    "averageProgress": "ਔਸਤ ਤਰੱਕੀ"
+  },
+  "home": {
+    "startLearning": "ਸਿੱਖਣਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "viewProgress": "ਮੇਰੀ ਤਰੱਕੀ ਦੇਖੋ",
+    "welcomeMessage": "ਨਮਸਤੇ ਛੋਟੇ ਸਿੱਖਣ ਵਾਲੇ!",
+    "letsLearn": "ਅੱਜ ਕੁਝ ਨਵਾਂ ਸਿੱਖੀਏ!",
+    "chooseSubject": "ਸਿੱਖਣ ਲਈ ਵਿਸ਼ਾ ਚੁਣੋ"
+  },
+  "messages": {
+    "noQuizData": "ਕੋਈ ਕਵਿਜ਼ ਡੇਟਾ ਉਪਲਬਧ ਨਹੀਂ",
+    "noLessonData": "ਕੋਈ ਪਾਠ ਡੇਟਾ ਉਪਲਬਧ ਨਹੀਂ",
+    "error": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ",
+    "loginSuccess": "ਲੋਗਇਨ ਸਫਲ!",
+    "loginError": "ਗਲਤ ਈਮੇਲ ਜਾਂ ਪਾਸਵਰਡ",
+    "scoreSaved": "ਸਕੋਰ ਸੁਰੱਖਿਅਤ!",
+    "lessonMarked": "ਪਾਠ ਪੂਰਾ ਚਿੰਨ੍ਹਿਤ!"
+  }
+}
+

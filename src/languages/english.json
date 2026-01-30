@@ -1,0 +1,106 @@
+{
+  "app": {
+    "title": "Kids Learning App",
+    "tagline": "Learning is Fun!",
+    "subtitle": "Learn Math, English & EVS in a fun way"
+  },
+  "common": {
+    "welcome": "Welcome",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit",
+    "retry": "Try Again",
+    "continue": "Continue",
+    "home": "Home",
+    "loading": "Loading...",
+    "score": "Score",
+    "correct": "Correct!",
+    "incorrect": "Oops! Wrong answer",
+    "totalQuestions": "Total Questions",
+    "yourScore": "Your Score",
+    "percentage": "Percentage",
+    "completed": "Completed",
+    "pending": "Pending"
+  },
+  "language": {
+    "selectLanguage": "Select Your Language",
+    "english": "English",
+    "hindi": "हिंदी",
+    "punjabi": "ਪੰਜਾਬੀ",
+    "languageLabel": "Language:"
+  },
+  "subjects": {
+    "selectSubject": "Choose Your Subject",
+    "maths": {
+      "name": "Maths",
+      "description": "Learn Numbers & Operations",
+      "emoji": "🔢"
+    },
+    "english": {
+      "name": "English Basics",
+      "description": "Learn Letters & Words",
+      "emoji": "📚"
+    },
+    "evs": {
+      "name": "EVS",
+      "description": "Learn About Nature",
+      "emoji": "🌿"
+    }
+  },
+  "lessons": {
+    "selectLesson": "Choose a Lesson",
+    "startLesson": "Start Lesson",
+    "watchAnimation": "Watch Animation",
+    "takeQuiz": "Take Quiz",
+    "lessonComplete": "Lesson Complete!",
+    "greatJob": "Great Job!",
+    "youLearned": "You learned something new today!"
+  },
+  "quiz": {
+    "quizTitle": "Quick Quiz",
+    "question": "Question",
+    "of": "of",
+    "correctAnswers": "Correct Answers",
+    "greatWork": "Great Work!",
+    "goodEffort": "Good Effort!",
+    "keepTrying": "Keep Trying!"
+  },
+  "dashboard": {
+    "teacherLogin": "Teacher Login",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "logout": "Logout",
+    "welcomeTeacher": "Welcome Teacher!",
+    "studentProgress": "Student Progress",
+    "studentName": "Student Name",
+    "class": "Class",
+    "lessonsCompleted": "Lessons Completed",
+    "quizzesTaken": "Quizzes Taken",
+    "averageScore": "Average Score",
+    "progress": "Progress",
+    "noStudents": "No students found",
+    "recentActivity": "Recent Activity",
+    "overview": "Overview",
+    "totalStudents": "Total Students",
+    "totalLessons": "Total Lessons",
+    "averageProgress": "Average Progress"
+  },
+  "home": {
+    "startLearning": "Start Learning",
+    "viewProgress": "View My Progress",
+    "welcomeMessage": "Hello Little Learner!",
+    "letsLearn": "Let's learn something new today!",
+    "chooseSubject": "Choose a subject to start learning"
+  },
+  "messages": {
+    "noQuizData": "No quiz data available",
+    "noLessonData": "No lesson data available",
+    "error": "Something went wrong",
+    "loginSuccess": "Login successful!",
+    "loginError": "Invalid email or password",
+    "scoreSaved": "Score saved successfully!",
+    "lessonMarked": "Lesson marked as complete!"
+  }
+}
+

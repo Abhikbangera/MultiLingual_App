@@ -1,0 +1,67 @@
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { useLanguage } from '../context/LanguageContext';
+
+const Navbar = () => {
+  const { t, language, setLanguage, getLanguageName } = useLanguage();
+  const navigate = useNavigate();
+
+  const handleLanguageChange = (e) => {
+    const newLang = e.target.value;
+    setLanguage(newLang);
+  };
+
+  return (
+    <nav className="bg-white/90 backdrop-blur-sm shadow-lg sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          {/* Logo */}
+          <Link to="/" className="flex items-center space-x-2">
+            <span className="text-3xl animate-bounce-slow">🎈</span>
+            <span className="font-fun text-xl sm:text-2xl font-bold bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent">
+              {t('app.title')}
+            </span>
+          </Link>
+
+          {/* Right side - Language selector & Dashboard link */}
+          <div className="flex items-center space-x-4">
+            {/* Language Selector */}
+            <div className="flex items-center space-x-2">
+              <span className="text-lg">🌐</span>
+              <select
+                value={language}
+                onChange={handleLanguageChange}
+                className="bg-gradient-to-r from-primary-100 to-secondary-100 border-2 border-primary-300 rounded-xl px-3 py-1.5 text-sm font-bold text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-400 cursor-pointer"
+              >
+                <option value="en">{t('language.english')}</option>
+                <option value="hi">{t('language.hindi')}</option>
+                <option value="pa">{t('language.punjabi')}</option>
+              </select>
+            </div>
+
+            {/* Teacher Dashboard Link */}
+            <Link
+              to="/dashboard"
+              className="hidden sm:flex items-center space-x-1 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full font-bold hover:from-purple-600 hover:to-pink-600 transition-all btn-hover"
+            >
+              <span>👩‍🏫</span>
+              <span>{t('dashboard.teacherLogin')}</span>
+            </Link>
+          </div>
+      </div>
+
+      {/* Mobile Dashboard Button */}
+      <div className="sm:hidden px-4 pb-3">
+        <Link
+          to="/dashboard"
+          className="flex items-center justify-center space-x-1 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full font-bold w-full"
+        >
+          <span>👩‍🏫</span>
+          <span>{t('dashboard.teacherLogin')}</span>
+        </Link>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

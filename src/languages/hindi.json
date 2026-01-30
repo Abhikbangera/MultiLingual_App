@@ -1,0 +1,106 @@
+{
+  "app": {
+    "title": "बच्चों की शिक्षा ऐप",
+    "tagline": "सीखना मज़ेदार है!",
+    "subtitle": "गणित, अंग्रेज़ी और EVS को मज़ेदार तरीके से सीखें"
+  },
+  "common": {
+    "welcome": "स्वागत हे",
+    "next": "अगला",
+    "back": "पीछे",
+    "submit": "जमा करें",
+    "retry": "फिर से कोशिश करें",
+    "continue": "जारी रखें",
+    "home": "होम",
+    "loading": "लोड हो रहा है...",
+    "score": "स्कोर",
+    "correct": "सही उत्तर!",
+    "incorrect": "ओहो! गलत उत्तर",
+    "totalQuestions": "कुल प्रश्न",
+    "yourScore": "आपका स्कोर",
+    "percentage": "प्रतिशत",
+    "completed": "पूर्ण",
+    "pending": "बाकी"
+  },
+  "language": {
+    "selectLanguage": "अपनी भाषा चुनें",
+    "english": "English",
+    "hindi": "हिंदी",
+    "punjabi": "ਪੰਜਾਬੀ",
+    "languageLabel": "भाषा:"
+  },
+  "subjects": {
+    "selectSubject": "विषय चुनें",
+    "maths": {
+      "name": "गणित",
+      "description": "अंक और गणित सीखें",
+      "emoji": "🔢"
+    },
+    "english": {
+      "name": "अंग्रेज़ी",
+      "description": "अक्षर और शब्द सीखें",
+      "emoji": "📚"
+    },
+    "evs": {
+      "name": "EVS",
+      "description": "प्रकृति के बारे में सीखें",
+      "emoji": "🌿"
+    }
+  },
+  "lessons": {
+    "selectLesson": "पाठ चुनें",
+    "startLesson": "पाठ शुरू करें",
+    "watchAnimation": "एनिमेशन देखें",
+    "takeQuiz": "क्विज़ लें",
+    "lessonComplete": "पाठ पूरा हुआ!",
+    "greatJob": "बहुत बढ़िया!",
+    "youLearned": "आपने आज कुछ नया सीखा!"
+  },
+  "quiz": {
+    "quizTitle": "क्विज़ टेस्ट",
+    "question": "प्रश्न",
+    "of": "का",
+    "correctAnswers": "सही उत्तर",
+    "greatWork": "बहुत बढ़िया काम!",
+    "goodEffort": "अच्छी कोशिश!",
+    "keepTrying": "कोशिश जारी रखें!"
+  },
+  "dashboard": {
+    "teacherLogin": "शिक्षक लॉगिन",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "welcomeTeacher": "स्वागत है शिक्षक जी!",
+    "studentProgress": "छात्रों की प्रगति",
+    "studentName": "छात्र का नाम",
+    "class": "कक्षा",
+    "lessonsCompleted": "पूर्ण पाठ",
+    "quizzesTaken": "किए गए क्विज़",
+    "averageScore": "औसत स्कोर",
+    "progress": "प्रगति",
+    "noStudents": "कोई छात्र नहीं मिला",
+    "recentActivity": "हाल की गतिविधि",
+    "overview": "सारांश",
+    "totalStudents": "कुल छात्र",
+    "totalLessons": "कुल पाठ",
+    "averageProgress": "औसत प्रगति"
+  },
+  "home": {
+    "startLearning": "सीखना शुरू करें",
+    "viewProgress": "मेरी प्रगति देखें",
+    "welcomeMessage": "नमस्ते छोटे शिक्षार्थी!",
+    "letsLearn": "आज कुछ नया सीखते हैं!",
+    "chooseSubject": "सीखने के लिए विषय चुनें"
+  },
+  "messages": {
+    "noQuizData": "कोई क्विज़ डेटा उपलब्ध नहीं",
+    "noLessonData": "कोई पाठ डेटा उपलब्ध नहीं",
+    "error": "कुछ गलत हो गया",
+    "loginSuccess": "लॉगिन सफल!",
+    "loginError": "गलत ईमेल या पासवर्ड",
+    "scoreSaved": "स्कोर सहेजा गया!",
+    "lessonMarked": "पाठ पूर्ण चिह्नित!"
+  }
+}
+
